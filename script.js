@@ -6,6 +6,10 @@ let topSwiper = new Swiper(".swiper.is-top", {
     },
     loop: true,
     followFinger: false,
+    navigation: {
+      nextEl:".arrow.is-right",
+      prevEl:".arrow.is-left"
+    }
   });
   
   let bottomSwiper = new Swiper(".swiper.bottom", {
