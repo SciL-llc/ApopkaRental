@@ -19,10 +19,6 @@ let topSwiper = new Swiper(".swiper.is-top", {
     pagination: {
       el: ".swiper-pagination",
     },
-    navigation: {
-      nextEl:".arrow.is-right",
-      prevEl:".arrow.is-left"
-    }
   });
   topSwiper.controller.control = bottomSwiper;
   bottomSwiper.controller.control = topSwiper;
